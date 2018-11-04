@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="hhhHSEPlayersWebPage" content="Show Information">
+        <link rel="stylesheet" type="text/css" href="/hhhHsePlayersWebsite/style.css">
+        <link rel="stylesheet" href="../style.css" type="text/css"/>
+<header>
+	<!--Top font-->
+	<div class="transbox"  src="hhhHsePlayersWebsite.html" allowtransparency="true" style="   position:relative; top: 0px; left: 0px; background-image: url(images/TopBannerHHHHSEPlayers .png)">
+    	<font color="white" size="4"><p>HHH HSE Players</p></font>
+        </div>  	
+	</header>
+        
+</head>
+
+<body style= "background: linear-gradient(to right, #800000 19%, #ff6666 86%); width: 100%;   height: 100%;margin: 0px;padding: 0px; overflow-x: hidden">
+
+   	
+    
+    <!----------->
+
+
+    <!--Top links-->
+    <div class="tab">
+        <a href="/hhhHsePlayersWebsite/index.html">
+            <button class="tablinks">Home</button>
+        </a>
+        <a href="/hhhHsePlayersWebsite/pdam.html">
+        <button class="tablinks active">Past Dramas and Musicals</button>
+        </a>
+        <a href="https://calendar.google.com/calendar/b/1?cid=b2k3N2tvMHBpMWZlbW91dHA4bmI5OXJ0Y2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank">
+        <button class="tablinks"target="_blank">Schedule</button>
+        </a>
+         
+        
+        <a href="/hhhHsePlayersWebsite/stage-crew.html">
+        <button class="tablinks">Stage Crew</button>
+        </a>
+        <a href="/hhhHsePlayersWebsite/pit-orchestra.html">
+        <button class="tablinks">Pit Orchestra</button>     
+        </a>
+        <div class="dropdown">
+                <button class="dropbtn">Thespian   &darr;</button>
+                <div class="dropdown-content">
+                    <a href="https://goo.gl/forms/1J60ILCUkZI2HIq43"target="_blank">Application</a>
+                    <a href="https://goo.gl/forms/EVLvdlkSJmlLNfdT2" target="_blank">Points List/Sheets</a>
+                    <a href="thespianSchedule.html">Meeting Schedule</a>
+                </div>
+            </div>
+        
+    </div>
+    
+   
+    
+   <!---------------Stage image------------------->
+   <div class="imgStage">
+   </div>    
+   <!---------------white box------------------->
+   <div class="box pdam">
+<!-------------------------------Past Dramas and musicals tab------------------------------------------------------------------>
+    <div id="Shows" class="tabcontent"><!--CHANGE ID TO CORROSPONDING EVENT NAME WHEN YOU MAKE NEW BUTTON NAMES-->
+        <h1 align="center"><font style="color: black"><font color="white">Dramas and Musicals</font></h1>
+        <h3><font style="color: white">Musicals</font></h3>
+        
+        
+        <a href="pdam/into-the-woods.html" target="_blank"><div class="imageBox intoTheWoods"></div></a>
+        <a href="pdam/addams-family.html" target="_blank"><div class="imageBox addamsFamily"></div> </a>
+        <a href="pdam/nice-work.html" target="_blank"><div class="imageBox niceWork"></div> </a>
+        <a href="pdam/kiss-me-kate.html" target="_blank"><div class="imageBox kissMeKate"></div></a>
+        <a href="pdam/once-on-this-island.html" target="_blank"><div class="imageBox onceOnThisIsland"></div></a>
+        <a href="pdam/urine-town.html" target="_blank"><div class="imageBox urineTown"></div> </a>
+        <a href="pdam/guys-and-dolls.html" target="_blank"><div class="imageBox guysAndDolls"></div>  </a>
+        <h3><font style="color: white">Dramas</font></h3>
+        <a href="pdam/the-crucible.html" target="_blank"><div class="imageBox crucible"></div> </a>
+        <a href="pdam/real-works-of-shakespeare.html" target="_blank"><div class="imageBox CWOWILLSHAKESPEARE"></div></a>
+        <a href="pdam/harvey.html" target="_blank"><div class="imageBox harvey"></div></a>
+        <a href="pdam/our-town.html" target="_blank"><div class="imageBox ourTown"></div></a>
+        <a href="pdam/is-he-dead.html" target="_blank"><div class="imageBox isHeDead"></div></a>
+        <a href="pdam/twelve-angry-jurors.html" target="_blank"><div class="imageBox twelveAngryJurors"></div></a>
+        
+    </div>
+          
+       <script>
+        function page(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+            
+        }
+        
+    </script>
+
+   </div>   
+   
+   <div class="footer">
+       <p>Designed by: Dylan Landman</p>
+  <p>Mr. Petrucci Contact information: <a href="https://mail.google.com/mail/">mpetrucci@hhh.k12.ny.us</a>.</p>
+</div>
+</body>
+</html>
